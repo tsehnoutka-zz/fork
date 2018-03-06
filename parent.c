@@ -10,8 +10,8 @@ int main(void)
   pid_t pid;
   
   my_args[0] = "child";
-  my_args[1] = "arg1";
-  my_args[2] = "arg2";
+  my_args[1] = "C1_a1";
+  my_args[2] = "C1_a2";
   my_args[3] = NULL;
   
   puts ("fork()ing");
